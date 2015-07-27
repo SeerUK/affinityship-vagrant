@@ -1,2 +1,2 @@
-# affinityship-vagrant
-Vagrant environment for affinityship website.
+# demica-vagrant
+Vagrant machine for running Demica website.
