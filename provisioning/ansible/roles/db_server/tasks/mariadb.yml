@@ -7,8 +7,8 @@
 - name: Start MariaDB
   service: name=mysql state=started
 
-- name: Install MariaDB User as_db
-  mysql_user: name=as_db host=% password= priv=*.*:ALL,GRANT state=present
+- name: Install MariaDB User ok_db
+  mysql_user: name=ok_db host=% password= priv=*.*:ALL,GRANT state=present
   notify:
   - Restart MariaDB
 
