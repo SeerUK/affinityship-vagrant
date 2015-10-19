@@ -1,8 +1,8 @@
 ---
 machines:
   ok_web:
-    hostname: "ok_web"
-    ipv4: "192.168.67.10"
+    hostname: "as_web"
+    ipv4: "192.168.66.10"
     playbook: "provisioning/ansible/web_server.yml"
     folder_map:
     - guest: "/opt/www"
@@ -16,6 +16,6 @@ machines:
       host: 4443
 
   ok_db:
-    hostname: "ok_db"
-    ipv4: "192.168.67.20"
+    hostname: "as_db"
+    ipv4: "192.168.66.20"
     playbook: "provisioning/ansible/db_server.yml"
