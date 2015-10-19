@@ -6,7 +6,7 @@ machines:
     playbook: "provisioning/ansible/web_server.yml"
     folder_map:
     - guest: "/opt/www"
-      host: "../../byng_systems@bitbucket.org/oakam-cms/"
+      host: "../../byng_systems@bitbucket.org/affinityship/"
       owner: www-data
       group: www-data
     port_map:
